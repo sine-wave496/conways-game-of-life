@@ -5,15 +5,12 @@
 特記事項:
 npm パッケージ等は含まれていないため、インストール手順を確認してください。
 
-***
-
 ## 目次
  [インストール](#インストール)
  [ディレクトリ構造](#ディレクトリ構造)
  [レイアウト](#レイアウト)
  [コンテンツ](#コンテンツ)
  [ライセンス](#ライセンス)
-***
 
 ## インストール
 Hugo のルートディレクトリに移動して、新しい Node.js プロジェクトを作成するための初期設定を行います。
@@ -30,8 +27,6 @@ npm install --save react react-dom
 npm install styled-components
 npm install @types/styled-components
 ```
-
-***
 
 ## ディレクトリ構造
 1. `/assets` ディレクトリ以下にスクリプトを配置します
@@ -57,8 +52,6 @@ npm install @types/styled-components
 │  └─_default
 │     └─single.html      # 変更するファイル
 ```
-
-***
 
 ## レイアウト
 `single.html` に下記のコードを追記します。
@@ -86,17 +79,11 @@ npm install @types/styled-components
 </head>
 ```
 
-***
-
 ## コンテンツ
 npm パッケージを利用する記事に下記のコードを記述します。
 ```md
 <div id="App1"></div>
 ```
 
-***
-
 ## ライセンス
 このプロジェクトは MIT ライセンスの下でライセンスされています。詳細は LICENSE ファイルをご覧ください。
-
-***
