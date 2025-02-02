@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"module": "ES6",
+		"moduleResolution": "Node",
+		"target": "ES6",
+		"lib": [
+			"ES2016",
+			"DOM"
+		],
+		"jsx": "react-jsx",
+		"allowSyntheticDefaultImports": true
+	}
+}
